@@ -1,8 +1,9 @@
+import { unoConfig } from './src/content/tutorial/1-basics/1-introduction/1-welcome/_files/uno.config';
 import { unoCSSConfig } from '@tutorialkit/astro';
 import { globSync, convertPathToPattern } from 'fast-glob';
 import fs from 'node:fs/promises';
-import { basename, dirname, join } from 'node:path';
-import { defineConfig, presetIcons, presetUno, transformerDirectives } from 'unocss';
+import { basename, dirname, join, sep } from 'node:path';
+import { defineConfig, mergeConfigs, presetIcons, presetUno, transformerDirectives } from 'unocss';
 
 const iconPaths = globSync('./icons/languages/*.svg');
 
@@ -23,8 +24,8 @@ export default defineConfig({
   ...unoCSSConfig,
   content: {
     inline: globSync([
-      `${convertPathToPattern(join(require.resolve('@tutorialkit/components-react'), '..'))}/**/*.js`,
-      `${convertPathToPattern(join(require.resolve('@tutorialkit/astro'), '..'))}/default/**/*.astro`,
+      `${convertPathToPattern(join(require.resolve('@tutorialkit/components-react'), '..')).replaceAll(sep, "/")}/**/*.js`,
+      `${convertPathToPattern(join(require.resolve('@tutorialkit/astro'), '..')).replaceAll(sep, "/")}/default/**/*.astro`,
     ]).map((filePath) => {
       return () => fs.readFile(filePath, { encoding: 'utf8' });
     }),

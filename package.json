@@ -28,6 +28,7 @@
     "astro": "^4.12.0",
     "fast-glob": "^3.3.2",
     "prettier-plugin-astro": "^0.14.1",
+    "svelte": "^5.0.0-next.201",
     "typescript": "^5.4.5",
     "unocss": "^0.59.4"
   }
