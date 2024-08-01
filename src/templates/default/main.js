@@ -1,5 +1,7 @@
-import './app.css'
+// import './app.css'
+import './app2.css'
 import App from './App.svelte'
+import '@unocss/reset/tailwind.css'
 import 'virtual:uno.css'
 import { mount } from "svelte"
 

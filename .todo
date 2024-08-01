@@ -1,0 +1,50 @@
+1. Introduction:
+  ✔ Introduction to UnoCSS @done(24-08-01 15:17)
+  ✔ Config file @done(24-08-01 15:17)
+
+2. Rules: 
+  ✔ Introduction to rules @done(24-08-01 16:27)
+  ✔ Static rules @done(24-08-01 16:27)
+  ✔ Dynamic rules using regex @done(24-08-01 16:27)
+  ☐ Rules with yield
+  
+  3. Shortcuts:
+  ☐ Introduction to shortcuts
+  ☐ Static shortcuts
+  ☐ Dynamic shortcuts using regex
+
+4. Presets:
+  ☐ Introduction to presets
+  ☐ Creating a new preset
+
+5. Variants:
+  ☐ Introduction to variants
+  ☐ Creating a new variant
+  ☐ Arbitrary variants
+
+6. presetIcons:
+  ☐ Introduction to presetIcons
+  ☐ Icons - mask
+  ☐ Icons - background
+
+7. Safelist and blocklist:
+  ☐ Introduction to safelist
+  ☐ Icons using safelist
+  ☐ Introduction to blocklist
+  ☐ Tailwind like design system using blocklist
+
+8. presetWebFonts:
+  ☐ Introduction to presetWebFonts
+
+9. Variant group:
+  ☐ Introduction to variant group
+  
+10. Transformer directives:
+  ☐ Introduction to transformer directives
+  ☐ @apply
+  ☐ --at-apply:
+  ☐ @screen
+  ☐ theme()
+  
+11. Tips and tricks: 
+  ☐ ? to find utilities
