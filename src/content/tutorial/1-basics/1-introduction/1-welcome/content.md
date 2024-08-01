@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Welcome to TutorialKit
+title: Welcome to UnoCSS
 focus: /counter.js
 ---
 
