@@ -1,4 +1,3 @@
-import { unoConfig } from './src/content/tutorial/1-basics/1-introduction/1-welcome/_files/uno.config';
 import { unoCSSConfig } from '@tutorialkit/astro';
 import { globSync, convertPathToPattern } from 'fast-glob';
 import fs from 'node:fs/promises';
