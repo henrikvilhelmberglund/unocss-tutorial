@@ -1,3 +1,17 @@
+# UnoCSS tutorial
+
+Welcome to my UnoCSS tutorial repo! This repo contains a TutorialKit project created to help learning of UnoCSS using an interactive tutorial.
+
+This tutorial is something I wanted to create personally but contributions are welcome, simply fork and make a PR.
+
+Progress:
+
+[<img src=".todo.png">](https://github.com/henrikvilhelmberglund/unocss-tutorial/blob/master/.todo.png)
+
+Original TutorialKit readme below:
+
+---
+
 # TutorialKit Starter
 
 👋 Welcome to TutorialKit!
