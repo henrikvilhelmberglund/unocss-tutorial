@@ -10,7 +10,8 @@
     "dev": "astro dev",
     "preview": "astro preview",
     "start": "astro dev",
-    "deploy": "httpyac deploy.http --all"
+    "deploy": "httpyac deploy.http --all",
+    "rendertodo": "mdimg -i .todo -o .todo.png -w 600 --css githubdark"
   },
   "dependencies": {
     "@tutorialkit/components-react": "0.1.0",
