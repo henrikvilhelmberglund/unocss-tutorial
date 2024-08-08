@@ -18,19 +18,29 @@
   
 3. Shortcuts:
 
-  ☐ Introduction to shortcuts
+  ✔ Introduction to shortcuts @done(24-08-08 16:49)
 
-  ☐ Static shortcuts
+  ✔ Static shortcuts @done(24-08-08 16:49)
 
-  ☐ Dynamic shortcuts using regex
+  ✔ Dynamic shortcuts using regex @done(24-08-08 16:49)
 
-4. Presets:
+  ✔ Dynamic shortcuts with arbitrary colors @done(24-08-08 16:51)
+
+  ✔ Dynamic shortcuts with using theme @done(24-08-08 16:51)
+
+  ✔ Dynamic shortcuts with using theme with CSS variables @done(24-08-08 16:51)
+
+4. Theme:
+
+  ☐ Introduction to theme
+
+5. Presets:
 
   ☐ Introduction to presets
 
   ☐ Creating a new preset
 
-5. Variants:
+6. Variants:
 
   ☐ Introduction to variants
 
@@ -38,7 +48,7 @@
 
   ☐ Arbitrary variants
 
-6. presetIcons:
+7. presetIcons:
 
   ☐ Introduction to presetIcons
 
@@ -46,7 +56,7 @@
 
   ☐ Icons - background
 
-7. Safelist and blocklist:
+8. Safelist and blocklist:
 
   ☐ Introduction to safelist
 
@@ -56,15 +66,15 @@
 
   ☐ Tailwind like design system using blocklist
   
-8. presetWebFonts:
+9. presetWebFonts:
 
   ☐ Introduction to presetWebFonts
 
-9. Variant group:
+10. Variant group:
 
   ☐ Introduction to variant group
   
-10. Transformer directives:
+11. Transformer directives:
 
   ☐ Introduction to transformer directives
 
@@ -76,6 +86,6 @@
 
   ☐ theme()
   
-11. Tips and tricks:
+12. Tips and tricks:
 
   ☐ ? to find utilities
