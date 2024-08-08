@@ -1,0 +1,15 @@
+:::tip 
+Note that Github will try to automatically render the .md files when linked to. You can instruct Github to show the source code instead by adding plain=1 query parameter.
+:::
+
+:::info
+Note that Github will try to automatically render the .md files when linked to. You can instruct Github to show the source code instead by adding plain=1 query parameter.
+:::
+
+:::warn
+Note that Github will try to automatically render the .md files when linked to. You can instruct Github to show the source code instead by adding plain=1 query parameter.
+:::
+
+:::danger
+Note that Github will try to automatically render the .md files when linked to. You can instruct Github to show the source code instead by adding plain=1 query parameter.
+:::
