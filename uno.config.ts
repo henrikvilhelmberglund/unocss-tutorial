@@ -1,8 +1,8 @@
-import { unoCSSConfig } from '@tutorialkit/astro';
 import { globSync, convertPathToPattern } from 'fast-glob';
 import fs from 'node:fs/promises';
 import { basename, dirname, join, sep } from 'node:path';
-import { defineConfig, mergeConfigs, presetIcons, presetUno, transformerDirectives } from 'unocss';
+import presetTutorialKit from './presetTutorialKit';
+import { defineConfig, definePreset, mergeConfigs, presetIcons, presetUno, transformerDirectives } from 'unocss';
 
 const iconPaths = globSync('./icons/languages/*.svg');
 
@@ -20,7 +20,7 @@ const customIconCollection = iconPaths.reduce(
 );
 
 export default defineConfig({
-  ...unoCSSConfig,
+  
   content: {
     inline: globSync([
       `${convertPathToPattern(join(require.resolve('@tutorialkit/components-react'), '..')).replaceAll(sep, "/")}/**/*.js`,
@@ -36,6 +36,7 @@ export default defineConfig({
         dark: '[data-theme="dark"]',
       },
     }),
+    presetTutorialKit(),
     presetIcons({
       collections: {
         ...customIconCollection,
