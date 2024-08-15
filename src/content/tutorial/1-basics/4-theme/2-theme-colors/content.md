@@ -6,6 +6,8 @@ focus: /uno.config.js
 
 # Theme - colors
 
+<!-- TODO add DEFAULT: when version is updated -->
+
 You can add custom colors to the theme.
 
 ```js
