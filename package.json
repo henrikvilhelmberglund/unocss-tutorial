@@ -14,7 +14,7 @@
     "rendertodo": "mdimg -i .todo -o .todo.png -w 600 --css githubdark"
   },
   "dependencies": {
-    "@tutorialkit/components-react": "0.1.0",
+    "@tutorialkit/components-react": "0.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -24,8 +24,8 @@
     "@iconify-json/ph": "^1.1.13",
     "@iconify-json/svg-spinners": "^1.1.2",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
-    "@tutorialkit/astro": "0.1.0",
-    "@tutorialkit/types": "0.1.0",
+    "@tutorialkit/astro": "0.1.4",
+    "@tutorialkit/types": "0.1.4",
     "@types/node": "^20.14.6",
     "@types/react": "^18.3.3",
     "@unocss/reset": "^0.59.4",
