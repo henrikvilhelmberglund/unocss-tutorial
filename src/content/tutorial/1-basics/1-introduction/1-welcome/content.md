@@ -12,6 +12,6 @@ UnoCSS is an atomic CSS engine that allows for easy styling using CSS utility cl
 
 This tutorial will teach concepts and techniques in UnoCSS that will help you write custom utility classes.
 
-UnoCSS supports various frameworks and even CLI. To see how to install UnoCSS in your project see the [documentation](https://unocss.dev/integrations/). This tutorial uses the **Vite** integration.
+UnoCSS supports various frameworks and even CLI. To see how to install UnoCSS in your project see the [documentation](https://unocss.dev/integrations/). This tutorial uses the **Runtime** integration to improve performance within TutorialKit. In normal cases the **Vite** integration works great.
 
 Happy writing!

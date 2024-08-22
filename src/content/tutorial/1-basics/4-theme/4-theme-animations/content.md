@@ -1,31 +1,61 @@
 ---
 type: lesson
-title: Dynamic rules with arbitrary colors
+title: Theme - animations
 focus: /uno.config.js
 ---
 
-# Dynamic rules with arbitrary colors
+# Theme - animations
 
-Our dynamic shortcut worked fine for purple because it's available as a color in UnoCSS. 
+You can add custom animations to the theme. A good reference for animations are the premade UnoCSS animations that can be found here: [source: preset-wind theme.ts](https://github.com/unocss/unocss/blob/main/packages/preset-wind/src/theme.ts#L19)
 
-:::tip
-See [UnoCSS source: colors.ts](https://github.com/unocss/unocss/blob/main/packages/preset-mini/src/_theme/colors.ts) for a list of all available colors.
-:::
+`animation:` can have 5 properties -
 
-What about CSS colors like `hotpink` though? Since `hotpink` is not available as a default color we can't change the lightness value with the `-500` syntax. 
+- **keyframes** (the @keyframes information for the animation, in other words what will change in the animation)
 
-Instead we could use the CSS `color-mix()` function to blend the colors with black and white to get the desired result.
+- **durations** (the length of the animation in seconds)
 
-Add this shortcut:
+- **timingFns** (interpolation functions like linear/ease-in-out)
 
-```js
-[/^fancy-button2-(.*)$/, ([, c]) => `py-2 px-4 border-1 border-[color-mix(in_srgb,_${c}_70%,_black)] bg-[color-mix(in_srgb,_${c}_100%,_white)] hover:bg-[color-mix(in_srgb,_${c}_50%,_white)] rounded-lg shadow-md`]
+- **properties** (special properties like transform-origin and backface-visibility)
+
+- **counts** (the times the animation should play, either infinite or a number)
+
+In UnoCSS you specify the values you want for each animation in each property.
+
+Meaning, `animate-spin` which should spin 360 degrees forever would look like this in the theme:
+
+```ts
+animation: {
+  keyframes: {
+    'spin': '{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}',
+  },
+  counts: {
+    'spin': 'infinite',
+  }
+}
 ```
 
-In UnoCSS we can't have spaces in arbitrary brackets `[not ok]`, they have to be replaced with underscores: `[this_is_ok]`. 
+It is possible to have **arbitrary animations** as long as you have some keyframes.
 
-This shortcut looks a bit crazy but what we're really doing is using the color-mix() function, taking in an sRGB color and mixing a certain percentage of the color we passed in to the shortcut with black or white.
+`class="animate-[spin_3s_ease-in-out_2] keyframes-spin"` would use the spin keyframes but change the duration to `3s`, the interpolation to `ease-in-out` and play `2` times.
 
-:::info
-There is actually a better way to use your own colors in UnoCSS: the `theme` object. We will look at this in the next lesson.
+:::warn
+Always include `keyframes-(animationname)` if you write an arbitrary animation to make sure the @keyframes rule is created properly.
 :::
+
+Copy this animaion and paste it into animation:
+
+```ts
+			keyframes: {
+				wiggle: "{0%,100% {transform:rotate(-3deg)} 50% {transform:rotate(30deg)}}",
+			},
+			durations: {
+				wiggle: "1s",
+			},
+			timingFns: {
+				wiggle: "ease-in-out",
+			},
+			counts: {
+				wiggle: "infinite",
+			},
+```
