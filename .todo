@@ -42,9 +42,9 @@
 
 5. Presets:
 
-  ☐ Introduction to presets
+  ✔ Introduction to presets @done(24-08-26 17:10)
 
-  ☐ Creating a new preset
+  ✔ Creating a new preset @done(24-08-26 17:10)
 
 6. Variants:
 
@@ -84,9 +84,7 @@
 
   ☐ Introduction to transformer directives
 
-  ☐ @apply
-
-  ☐ --at-apply:
+  ☐ @apply and --at-apply:
 
   ☐ @screen
 
