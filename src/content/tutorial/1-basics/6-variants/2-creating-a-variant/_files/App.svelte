@@ -1,0 +1,1 @@
+<button class="text-white bg-blue-400 my-hover:bg-blue-500">Hover me</button>
