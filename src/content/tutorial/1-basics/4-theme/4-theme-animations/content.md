@@ -1,10 +1,10 @@
 ---
 type: lesson
-title: Theme - animations
+title: Animations
 focus: /uno.config.js
 ---
 
-# Theme - animations
+# Animations
 
 You can add custom animations to the theme. A good reference for animations are the premade UnoCSS animations that can be found here: [source: preset-wind theme.ts](https://github.com/unocss/unocss/blob/main/packages/preset-wind/src/theme.ts#L19)
 

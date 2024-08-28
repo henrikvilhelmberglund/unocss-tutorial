@@ -1,12 +1,10 @@
 ---
 type: lesson
-title: Theme - colors
+title: Colors
 focus: /uno.config.js
 ---
 
-# Theme - colors
-
-<!-- TODO add DEFAULT: when version is updated -->
+# Colors
 
 You can add custom colors to the theme.
 
@@ -49,6 +47,8 @@ theme: {
 Add these lines to the colors in the config.
 
 Above is an example of a theme color that changes the hue using a `--hue` CSS variable. Of course it's also possible to do something simpler, like shades using colors in hex.
+
+Note that it's also possible to add a `DEFAULT` property with a color value if you want to be able to use `bg-random` without a number suffix.
 
 :::tip
 The default colors from the source code can be found here: https://github.com/unocss/unocss/blob/main/packages/preset-mini/src/_theme/colors.ts

@@ -20,6 +20,6 @@ export default defineConfig({
 });
 ```
 
-UnoCSS has many presets like `presetIcons`, `presetTypography` and `presetIcons` and there are many community presets as well. They can be found here: [official preests](https://unocss.dev/presets/) and here: [community presets](https://unocss.dev/presets/community)
+UnoCSS has many presets like `presetIcons`, `presetTypography` and `presetIcons` and there are many community presets as well. They can be found here: [official presets](https://unocss.dev/presets/) and here: [community presets](https://unocss.dev/presets/community)
 
 In the next lesson we will create a new preset and use it.
