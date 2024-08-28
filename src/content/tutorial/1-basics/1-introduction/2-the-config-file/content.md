@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: uno.config.js
+title: Configuring UnoCSS
 focus: /uno.config.js
 ---
 
