@@ -48,39 +48,39 @@
 
 6. Variants:
 
-  ☐ Introduction to variants
+  ✔ Introduction to variants @done(24-08-28 17:41)
 
-  ☐ Creating a new variant
+  ✔ Creating a new variant @done(24-08-28 17:41)
 
-  ☐ Arbitrary variants
+7. Safelist:
 
-7. presetIcons:
+  ☐ Introduction to safelist
+  
+  ☐ Icons using safelist
+
+8. Blocklist:
+  
+  ☐ Introduction to blocklist
+  
+  ☐ Design system using blocklist
+
+9. presetIcons:
 
   ☐ Introduction to presetIcons
 
   ☐ Icons - mask
 
   ☐ Icons - background
-
-8. Safelist and blocklist:
-
-  ☐ Introduction to safelist
-
-  ☐ Icons using safelist
-
-  ☐ Introduction to blocklist
-
-  ☐ Tailwind like design system using blocklist
   
-9. presetWebFonts:
+10. presetWebFonts:
 
   ☐ Introduction to presetWebFonts
 
-10. Variant group:
+11. Variant group:
 
   ☐ Introduction to variant group
   
-11. Transformer directives:
+12. Transformer directives:
 
   ☐ Introduction to transformer directives
 
@@ -90,6 +90,6 @@
 
   ☐ theme()
   
-12. Tips and tricks:
+13. Tips and tricks:
 
   ☐ ? to find utilities
