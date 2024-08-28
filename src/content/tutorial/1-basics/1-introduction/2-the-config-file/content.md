@@ -4,7 +4,7 @@ title: Configuring UnoCSS
 focus: /uno.config.js
 ---
 
-# uno.config.js
+# Configuring UnoCSS
 
 UnoCSS has a config file called `uno.config.js|ts`. This file allows you to easily customize UnoCSS. We will use this file later to add **rules**, **shortcuts** and more.
 
