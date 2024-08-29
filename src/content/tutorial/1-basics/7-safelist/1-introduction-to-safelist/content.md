@@ -6,20 +6,29 @@ focus: /counter.js
 
 # Safelist
 
-Presets are collections of rules, shortcuts, variants, preflights and more. The default preset `presetUno` is a preset that aims to be compatible with other utility-first frameworks like Tailwind CSS.
+Safelist is a feature that allows for always generating certain rules even if they are not detected in the extraction phase. Only rules that UnoCSS can find are generated which means that if you have a dynamic rule like `p-{i}` it is not going to work.
 
-By creating a preset you can create a new framework or feature inside UnoCSS and if you want to share it you can release it as a package for others to use. 
+To solve this issue we can add the classes that should be generated to `safelist`.
 
-Presets can be loaded using the `presets` array inside `uno.config.js`. 
+Safelist can be set using the `safelist` array inside `uno.config.js`.
 
 ```js
 import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
+	safelist: "p-1 p-2 p-3 p-4".split(" "),
+	// or safelist: ["p-1", "p-2", "p-3", "p-2"]
 });
 ```
 
-UnoCSS has many presets like `presetIcons`, `presetTypography` and `presetIcons` and there are many community presets as well. They can be found here: [official preests](https://unocss.dev/presets/) and here: [community presets](https://unocss.dev/presets/community)
+It is also possible to use a function:
 
-In the next lesson we will create a new preset and use it.
+```js
+import { defineConfig, presetUno } from "unocss";
+
+export default defineConfig({
+	safelist: [...Array.from({ length: 4 }, (_, i) => `p-${i + 1}`)],
+});
+```
+
+In the next lesson we will use safelist to solve a problem with dynamic classes.
