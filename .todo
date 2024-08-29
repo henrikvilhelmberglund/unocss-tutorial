@@ -54,9 +54,11 @@
 
 7. Safelist:
 
-  ☐ Introduction to safelist
+  ✔ Introduction to safelist @done(24-08-29 17:04)
   
-  ☐ Icons using safelist
+  ✔ Dynamic classes with safelist @done(24-08-29 17:04)
+
+  ✔ Dynamic classes without safelist @done(24-08-29 17:04)
 
 8. Blocklist:
   
@@ -67,6 +69,8 @@
 9. presetIcons:
 
   ☐ Introduction to presetIcons
+
+  ☐ Dynamic icons using safelist
 
   ☐ Icons - mask
 
