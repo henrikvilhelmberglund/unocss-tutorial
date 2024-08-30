@@ -6,20 +6,26 @@ focus: /counter.js
 
 # Blocklist
 
-Presets are collections of rules, shortcuts, variants, preflights and more. The default preset `presetUno` is a preset that aims to be compatible with other utility-first frameworks like Tailwind CSS.
+Blocklist is a feature that allows for blocking utilities so they do not generate rules. This can be useful if you have conflicts between UnoCSS and other CSS styles and need to stop UnoCSS from generating a certain rule.
 
-By creating a preset you can create a new framework or feature inside UnoCSS and if you want to share it you can release it as a package for others to use. 
-
-Presets can be loaded using the `presets` array inside `uno.config.js`. 
+Blocklist can be set using the `blocklist` array inside `uno.config.js`.
 
 ```js
 import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
+	blocklist: ["p-1", /^p-[2-4]$/],
 });
 ```
 
-UnoCSS has many presets like `presetIcons`, `presetTypography` and `presetIcons` and there are many community presets as well. They can be found here: [official preests](https://unocss.dev/presets/) and here: [community presets](https://unocss.dev/presets/community)
+Unlike `safelist` you can use regex to define a pattern.
 
-In the next lesson we will create a new preset and use it.
+As with `safelist` it is also possible to use a string as above or a function:
+
+```js
+import { defineConfig, presetUno } from "unocss";
+
+export default defineConfig({
+	blocklist: [...Array.from({ length: 4 }, (_, i) => `p-${i + 1}`)],
+});
+```
