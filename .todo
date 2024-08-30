@@ -62,9 +62,9 @@
 
 8. Blocklist:
   
-  ☐ Introduction to blocklist
+  ✔ Introduction to blocklist @done(24-08-30 17:10)
   
-  ☐ Design system using blocklist
+  ✘ Design system using blocklist @cancelled(24-08-30 17:11) - wasn't great here since you would ideally want the rules to be allowed instead of the rules to be blocked
 
 9. presetIcons:
 
