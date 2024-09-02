@@ -14,27 +14,23 @@
     "rendertodo": "mdimg -i .todo -o .todo.png -w 600 --css githubdark"
   },
   "dependencies": {
-    "@tutorialkit/components-react": "0.1.4",
+    "@tutorialkit/react": "^0.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@astrojs/check": "^0.7.0",
-    "@astrojs/react": "^3.6.0",
-    "@iconify-json/ph": "^1.1.13",
-    "@iconify-json/svg-spinners": "^1.1.2",
+    "@astrojs/react": "^3.6.2",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
-    "@tutorialkit/astro": "0.1.4",
-    "@tutorialkit/types": "0.1.4",
-    "@types/node": "^20.14.6",
-    "@types/react": "^18.3.3",
-    "@unocss/reset": "^0.59.4",
-    "astro": "^4.12.0",
-    "fast-glob": "^3.3.2",
+    "@tutorialkit/astro": "^0.2.0",
+    "@tutorialkit/theme": "^0.2.0",
+    "@tutorialkit/types": "^0.2.0",
+    "@types/node": "^20.16.3",
+    "@types/react": "^18.3.5",
+    "astro": "^4.15.2",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-svelte": "^3.2.6",
     "svelte": "^5.0.0-next.201",
-    "typescript": "^5.4.5",
-    "unocss": "^0.59.4"
+    "typescript": "^5.4.5"
   }
 }
