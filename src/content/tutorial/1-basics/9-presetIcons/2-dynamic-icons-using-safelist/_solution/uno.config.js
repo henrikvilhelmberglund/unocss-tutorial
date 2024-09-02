@@ -1,6 +1,5 @@
-import { defineConfig, presetUno } from "unocss";
-import myPreset from "./my-preset";
+import { defineConfig, presetUno, presetIcons } from "unocss";
 
 export default defineConfig({
-	presets: [presetUno(), myPreset()],
+  presets: [presetUno(), presetIcons()],
 });

@@ -6,7 +6,7 @@ focus: /counter.js
 
 # presetIcons
 
-Presets are collections of rules, shortcuts, variants, preflights and more. The default preset `presetUno` is a preset that aims to be compatible with other utility-first frameworks like Tailwind CSS.
+presetIcons is a  are collections of rules, shortcuts, variants, preflights and more. The default preset `presetUno` is a preset that aims to be compatible with other utility-first frameworks like Tailwind CSS.
 
 By creating a preset you can create a new framework or feature inside UnoCSS and if you want to share it you can release it as a package for others to use. 
 
