@@ -4,9 +4,7 @@ title: Welcome to UnoCSS
 focus: /counter.js
 ---
 
-# Welcome to UnoCSS!
-
-Hey there, and welcome to the UnoCSS tutorial! 👋!
+# Welcome to the UnoCSS tutorial! 👋
 
 UnoCSS is an atomic CSS engine that allows for easy styling using CSS utility classes.
 
