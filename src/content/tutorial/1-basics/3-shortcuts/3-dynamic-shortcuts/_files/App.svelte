@@ -1,5 +1,5 @@
-<p class="fancy-button-purple">Make me purple</p>
+<button class="fancy-button-purple">Make me purple</button>
 
-<p class="fancy-button-blue">Make me blue</p>
+<button class="fancy-button-blue">Make me blue</button>
 
-<p class="fancy-button-pink">Make me pink</p>
+<button class="fancy-button-pink">Make me pink</button>
