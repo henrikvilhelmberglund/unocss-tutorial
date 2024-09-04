@@ -8,7 +8,7 @@ focus: /uno.config.js
 
 Symbols can also be used for implementing at rules such as **@supports**.
 
-> symbols.parent: The parent wrapper of the generated CSS rule (eg. @supports, @media, etc.)
+> `symbols.parent`: The parent wrapper of the generated CSS rule (eg. @supports, @media, etc.)
 
 We can add an at rule wrapper by using `symbols.parent`:
 
@@ -29,4 +29,6 @@ We can add an at rule wrapper by using `symbols.parent`:
 
 Try adding `{ symbols }` in the function, the `symbols.parent` line and inspecting the div in the DOM.
 
-> Note that this is a slightly contrived example because UnoCSS already supports common breakpoint variants such as `lg:`, `sm:` and so on, but `symbols.parent` can be useful in custom rules.
+:::info
+Note that this is a slightly contrived example because UnoCSS already supports common breakpoint variants such as `lg:`, `sm:` and so on, but `symbols.parent` can be useful in custom rules.
+:::

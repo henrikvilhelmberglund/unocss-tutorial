@@ -16,7 +16,9 @@ The name should be this: `/^fancy-button-(.*)$/`
 <details>
   <summary>New to regex?</summary>
 
+:::info
 `//` is how a regex is specified. `^` is the start of the string and `$` is the end of the string. `.*` means `match any character` and putting parantheses around like `(.*)` will create a capturing group that catches the content and allows for matching against the whole group.
+:::
 
 </details>
 
@@ -29,7 +31,9 @@ Inside of `uno.config.js` we can modify `"fancy-button-purple"` to accept a rege
 <details>
   <summary>Matching numbers in regex</summary>
 
-> For a regex that should match numbers here is an example: ``[/^m-(\d+)$/, ([, d]) => ({ margin: `${d / 4}rem` })]``
+:::tip
+For a regex that should match numbers here is an example: ``[/^m-(\d+)$/, ([, d]) => ({ margin: `${d / 4}rem` })]``
+:::
 
 </details>
 
@@ -50,4 +54,4 @@ export default defineConfig({
 });
 ```
 
-After creating the new dynamic rule all of the text in the preview should have its own color. There is a potential problem though, since we used the `bg-${c}-300` syntax we can't really get a skyblue or hotpink button like before. Can we fix this?
+After creating the new dynamic rule all of the text in the preview should have its own color. There is a potential problem though, since we used the `bg-${c}-300` syntax we can't really get a skyblue or hotpink button like before. Can we fix this? We'll look at this in the next lesson.

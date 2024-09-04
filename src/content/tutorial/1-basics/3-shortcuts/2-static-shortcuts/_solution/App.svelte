@@ -1,1 +1,1 @@
-<p class="fancy-purple">Make me purple</p>
+<button class="fancy-button-purple">Make me fancy</button>

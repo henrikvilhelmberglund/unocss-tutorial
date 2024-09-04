@@ -15,25 +15,24 @@ import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
   presets: [presetUno()],
-  rules: [
-    [/^fancy-(.*)$/, ([, c]) => ({ color: `${c}`, "text-decoration": `underline ${c}` })]
-  ],
+  rules: [[/^fancy-(.*)$/, ([, c]) => ({ color: `${c}` })]],
 });
 ```
 
-Which works fine. If you want linebreaks it can look slightly awkward because you need opening braces and then a return statement, like this:
+If you want linebreaks it can look slightly awkward because you need opening braces and then a return statement, like this:
 
 ```js
-  rules: [
-    [
-      /^fancy-(.*)$/, ([, c]) => {
-        return {
-          color: `${c}`,
-          "text-decoration": `underline ${c}`,
-        };
-      },
-    ],
-  ],
+	rules: [
+		[
+			/^fancy-(.*)$/,
+			([, c]) => {
+				return {
+					color: `${c}`,
+					"text-decoration": `underline ${c}`,
+				};
+			},
+		],
+	],
 ```
 
 We'll look at an alternative syntax in the next lesson.

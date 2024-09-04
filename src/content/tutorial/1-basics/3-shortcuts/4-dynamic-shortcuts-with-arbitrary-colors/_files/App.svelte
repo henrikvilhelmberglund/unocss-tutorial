@@ -1,5 +1,5 @@
-<p class="fancy-button2-blanchedalmond">Make me blanchedalmond</p>
+<button class="fancy-button2-blanchedalmond">Make me blanchedalmond</button>
 
-<p class="fancy-button2-skyblue">Make me skyblue</p>
+<button class="fancy-button2-skyblue">Make me skyblue</button>
 
-<p class="fancy-button2-hotpink">Make me hotpink</p>
+<button class="fancy-button2-hotpink">Make me hotpink</button>

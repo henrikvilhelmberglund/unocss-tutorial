@@ -6,7 +6,7 @@ focus: /uno.config.js
 
 # Dynamic shortcuts using theme
 
-To add custom colors simply add a theme object with a colors key containing the colors you want to add. If you only want a single shade you can add `hotpink: "#fa3a95",` but in our case we want all of the shades from `50` to `950`. Add this to the config:
+To add custom colors you can add a theme object with a colors key containing the colors you want to add. If you only want a single shade you can add `hotpink: "#fa3a95",` but in our case we want all of the shades from `50` to `950`. Add this to the config:
 
 ```js
 theme: {
@@ -53,6 +53,10 @@ theme: {
     },
   },
 ```
+
+:::info
+Note that it's also possible to add a `DEFAULT` property with a color value if you want to be able to use for example `bg-hotpink` without a number suffix.
+:::
 
 After adding these colors we can use them anywhere in our project, for example `bg-hotpink-500`. Of course we can also use them in our shortcuts!
 

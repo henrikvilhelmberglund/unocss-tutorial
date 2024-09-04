@@ -24,7 +24,7 @@ Add this shortcut:
 
 In UnoCSS we can't have spaces in arbitrary brackets `[not ok]`, they have to be replaced with underscores: `[this_is_ok]`. 
 
-This shortcut looks a bit crazy but what we're really doing is using the color-mix() function, taking in an sRGB color and mixing a certain percentage of the color we passed in to the shortcut with black or white.
+This shortcut looks a bit complicated but what we're really doing is using the color-mix() function, taking in an sRGB color and mixing a certain percentage of the color we passed in to the shortcut with black or white.
 
 :::info
 There is actually a better way to use your own colors in UnoCSS: the `theme` object. We will look at this in the next lesson.

@@ -1,6 +1,6 @@
 <div class="h-full text-center flex select-none all:transition-400">
   <div class="m-auto">
-    <div class="text-5xl font-thin animate-bounce-alt animate-count-infinite animate-duration-1s">
+    <div class="text-5xl font-thin animate-bounce-alt animate-count-1 animate-duration-1s">
       UnoCSS
     </div>
     <div class="opacity-30 text-lg font-light m-1">

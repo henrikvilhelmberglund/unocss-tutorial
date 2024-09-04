@@ -27,4 +27,4 @@ export default defineConfig({
 });
 ```
 
-This is not the main reason to use this syntax though. The yield syntax allows us to add **multi selector rules** which is the next lesson.
+The yield syntax is powerful and allows us to use symbols to add things like **multi selector rules** which we'll cover in the next lesson.
