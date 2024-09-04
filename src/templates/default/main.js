@@ -2,7 +2,10 @@
 import './app2.css'
 import App from './App.svelte'
 import { mount } from "svelte"
-import 'virtual:uno.css'
+import initUnocssRuntime from '@unocss/runtime'
+import config from './uno.config'
+
+initUnocssRuntime({ defaults: config })
 
 const app = mount(App, {
   target: document.getElementById('app'),
