@@ -8,7 +8,7 @@ focus: /counter.js
 
 Safelist is a feature that allows for always generating certain rules even if they are not detected in the extraction phase. Only rules that UnoCSS can find are generated which means that if you have a dynamic rule like `p-{i}` it is not going to work.
 
-To solve this issue we can add the classes that should be generated to `safelist`.
+To solve this issue we can add the utilities that should be generated in `safelist`.
 
 Safelist can be set using the `safelist` array inside `uno.config.js`.
 
