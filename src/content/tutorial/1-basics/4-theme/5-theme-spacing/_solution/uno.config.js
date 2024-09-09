@@ -20,6 +20,9 @@ export default defineConfig({
 		],
 	],
 	theme: {
+		spacing: {
+			...Array.from({ length: 100 }, (_, i) => `calc(var(--size)*${i}rem)`),
+		},
 		animation: {
 			keyframes: {
 				wiggle: "{0%,100% {transform:rotate(-3deg)} 50% {transform:rotate(30deg)}}",

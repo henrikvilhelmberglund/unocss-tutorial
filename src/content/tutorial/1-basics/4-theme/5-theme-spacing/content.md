@@ -6,4 +6,23 @@ focus: /uno.config.js
 
 # Spacing
 
-https://uno.antfu.me/play/?html=DwEwlgbgBAxgNgQwM5ILwCIDaBabSwBeApgFwAMAdAEwCsAuugHwBQUUwARgK4AuPA9gDtYiFBg4BzbBzhci2GmTJQADtgAsTbnyHAA9NoGCW%2B8BBMcATnpNmRyNFlz5iJAIwMWbTryP2x6JLSsvKKymqajIa6Br5CJnpmXlBAA&config=JYWwDg9gTgLgBAbzgEwKYDNgDtUGEJaYDmANHGFKgM6owCCMMUwARgK4zDoCeZF1tAJIBjAlT6UaMAKpYIcAL5x0UCCDgByNnOFUqGgFAHUAD0iwUGAIZsANvDSYc%2BQsCIAKBAbhwYAC1QQVAAuRG8fOCowK2FsIlCvCIiAemS4ADpMuigoK250lTVPOFtULCJ-UIBGAAYaxTJ3AH0yYABKOABeAD44AAMAEgRgACoqhUoQPrbwpIysnLyC1RBi0vLKuFr6hUaWuHau3r7hK1thdwA3Kyh3AFo7qmAAL1Q2kaHgCcC26dmG8K7cL8KRUUIAbRBtFkEHcbQkAnojGY7E4PDhAF0SAYFDMgA&css=PQKgBA6gTglgLgUzAYwK4Gc4HsC2YDCAyoWABYJQIA0YAhgHYAmYcUD6AZllDhWOqgAOg7nAB0YAGLcwCAB60cggDYIAXGBDAAUKDBi0mXGADe2sGC704AWgDuCGAHNScDQFYADJ4Dc5sAACtMLKAJ5gggCMLPK2ABR2pPBIcsoAlH4WAEa0yADWTlBYqEw2yFjK3Bpw5LxxAOTllVDoYpSMYgAs3vUZ2gC%2BmsBAA&options=N4IgLgTghgdgzgMwPYQLYgFwKgGzgUwF8g
+You can customize the spacing values that are used in for example `p-4`. By default `p-4` is `1 rem`.
+
+To change this edit the spacing property inside theme:
+
+```ts
+  theme: {
+    spacing: {
+      4: "10rem" // this would change p-4 to be 10 rem
+    }
+```
+
+It is also possible to use a function. Here is an example that uses a `size` CSS variable to configure the spacing.
+
+```ts
+  theme: {
+    spacing: {
+       ...Array.from({ length: 100 }, (_, i) => `calc(var(--size)*${i}rem)`)
+    },
+  },
+```
