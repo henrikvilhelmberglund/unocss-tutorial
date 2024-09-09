@@ -1,10 +1,19 @@
-<!-- A basic anchor icon from Phosphor icons -->
-<div class="i-ph-anchor-simple-thin text-3xl"></div>
-<!-- An orange alarm from Material Design Icons -->
-<div class="i-mdi-alarm text-orange-400 text-3xl"></div>
-<!-- A large Vue logo -->
-<div class="i-logos-vue text-3xl"></div>
-<!-- Sun in light mode, Moon in dark mode, from Carbon -->
-<button class="i-carbon-sun text-3xl dark:i-carbon-moon"></button>
-<!-- Twemoji of laugh, turns to tear on hovering -->
-<div class="i-twemoji-grinning-face-with-smiling-eyes text-3xl hover:i-twemoji-face-with-tears-of-joy"></div>
+<script>
+	const directions = ["left", "up", "right", "down"];
+</script>
+
+{#snippet arrowKey(classes)}
+	<button class="{classes} h-18 w-18"></button>
+{/snippet}
+
+<div
+	tabindex="0"
+	role="button"
+	onmousedown={(e) => {
+		e.preventDefault();
+	}}
+	class="grid grid-areas-[._up._]-[left_._right]-[._down_.] justify-start">
+	{#each directions as direction}
+		{@render arrowKey(`i-carbon-arrow-${direction} grid-area-${direction}`)}
+	{/each}
+</div>
