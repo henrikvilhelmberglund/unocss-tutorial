@@ -14,17 +14,17 @@ Here is how it would look:
 import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
-  rules: [
-    [
-      /^fancy-(.*)$/,
-      function* ([, c]) {
-        yield { color: `${c}` };
-        yield { "text-decoration": `underline ${c}` };
-      },
-    ],
-  ],
+	presets: [presetUno()],
+	rules: [
+		[
+			/^fancy-(.*)$/,
+			function* ([, c]) {
+				yield { color: `${c}` };
+				yield { "text-decoration": `underline ${c}` };
+			},
+		],
+	],
 });
 ```
 
-The yield syntax is powerful and allows us to use symbols to add things like **multi selector rules** which we'll cover in the next lesson.
+The yield syntax is powerful and allows us to use symbols to add things like multi selector rules which we'll cover in the next lesson.

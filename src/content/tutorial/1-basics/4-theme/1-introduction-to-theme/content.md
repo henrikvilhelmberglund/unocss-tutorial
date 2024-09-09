@@ -8,18 +8,18 @@ focus: /counter.js
 
 Theme allows you to add or replace default values for colors, breakpoints, animations and more.
 
-The theme is created using the `theme` object inside `uno.config.js`. 
+The theme is created using the `theme` object inside `uno.config.js`.
 
 ```js
 import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
-  theme: {
-    colors: {
-      'very-cool': '#0000ff', // class="text-very-cool"
-    }
-  }
+	presets: [presetUno()],
+	theme: {
+		colors: {
+			"very-cool": "#0000ff", // class="text-very-cool"
+		},
+	},
 });
 ```
 
@@ -37,8 +37,8 @@ colors: {
 
 Breakpoints can be defined if you want to change the defaults or add new devices.
 
-:::warn 
-Breakpoints are not merged but instead **replace the default values**. This means that you will need to provide values for all breakpoints you want to use.
+:::warn
+Breakpoints are not merged but instead replace the default values. This means that you will need to provide values for all breakpoints you want to use.
 :::
 
 In the next lessons we'll look at theme and colors, breakpoints and animations.

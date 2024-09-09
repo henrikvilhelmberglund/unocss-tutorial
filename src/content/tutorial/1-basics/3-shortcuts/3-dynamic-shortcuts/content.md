@@ -6,12 +6,11 @@ focus: /uno.config.js
 
 # Dynamic rules
 
-Our `fancy-button-purple` shortcut works fine but what if we want lots of colors? Creating a separate shortcut for each color is a lot of work. Instead we can use **dynamic shortcuts**.
+Our `fancy-button-purple` shortcut works fine but what if we want lots of colors? Creating a separate shortcut for each color is a lot of work. Instead we can use dynamic shortcuts.
 
-Dynamic shortcuts are rules with a **regex** in the name. Let's make a dynamic `fancy-button-(color here)` utility that will change the button color to the specified color.
+Dynamic shortcuts are rules with a regex in the name. Let's make a dynamic `fancy-button-(color here)` utility that will change the button color to the specified color.
 
 The name should be this: `/^fancy-button-(.*)$/`
-
 
 <details>
   <summary>New to regex?</summary>
@@ -39,7 +38,7 @@ For a regex that should match numbers here is an example: ``[/^m-(\d+)$/, ([, d]
 
 ---
 
-We now have this arrow function which starts with `([, c])` where `c` will match whatever is after `fancy-` and allow us to use the `c` value in the color utilities like `bg-${c}-300`. 
+We now have this arrow function which starts with `([, c])` where `c` will match whatever is after `fancy-` and allow us to use the `c` value in the color utilities like `bg-${c}-300`.
 
 You should end up with something like this:
 
@@ -47,10 +46,14 @@ You should end up with something like this:
 import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
-  shortcuts: [
-    [/^fancy-button-(.*)$/, ([, c]) => `py-2 px-4 border-1 border-${c}-600 bg-${c}-300 hover:bg-${c}-400 rounded-lg shadow-md`]
-  ],
+	presets: [presetUno()],
+	shortcuts: [
+		[
+			/^fancy-button-(.*)$/,
+			([, c]) =>
+				`py-2 px-4 border-1 border-${c}-600 bg-${c}-300 hover:bg-${c}-400 rounded-lg shadow-md`,
+		],
+	],
 });
 ```
 

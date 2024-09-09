@@ -6,12 +6,11 @@ focus: /uno.config.js
 
 # Dynamic rules
 
-Our `fancy-purple` rule works fine but what if we want lots of colors? Creating a separate rule for each color is a lot of work. Instead we can use **dynamic rules**.
+Our `fancy-purple` rule works fine but what if we want lots of colors? Creating a separate rule for each color is a lot of work. Instead we can use dynamic rules.
 
 Dynamic rules are rules with a regex in the name. Let's make a dynamic `fancy-(color here)` utility that will change the color to the specified color.
 
 The name should be this: `/^fancy-(.*)$/`
-
 
 <details>
   <summary>New to regex?</summary>
@@ -39,7 +38,7 @@ For a regex that should match numbers here is an example: ``[/^m-(\d+)$/, ([, d]
 
 ---
 
-We now have this arrow function which starts with `([, c])` where `c` will match whatever is after `fancy-` and allow us to use the `c` value in ``({ color: `${c}` })``. 
+We now have this arrow function which starts with `([, c])` where `c` will match whatever is after `fancy-` and allow us to use the `c` value in ``({ color: `${c}` })``.
 
 You should end up with something like this:
 
@@ -47,8 +46,8 @@ You should end up with something like this:
 import { defineConfig, presetUno } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
-  rules: [[/^fancy-(.*)$/, ([, c]) => ({ color: `${c}` })]],
+	presets: [presetUno()],
+	rules: [[/^fancy-(.*)$/, ([, c]) => ({ color: `${c}` })]],
 });
 ```
 

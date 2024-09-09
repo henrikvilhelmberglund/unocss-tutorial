@@ -10,15 +10,15 @@ You can add custom animations to the theme. A good reference for animations are 
 
 `animation:` can have 5 properties -
 
-- **keyframes** (the @keyframes information for the animation, in other words what will change in the animation)
+- keyframes (the @keyframes information for the animation, in other words what will change in the animation)
 
-- **durations** (the length of the animation in seconds)
+- durations (the length of the animation in seconds)
 
-- **timingFns** (interpolation functions like linear/ease-in-out)
+- timingFns (interpolation functions like linear/ease-in-out)
 
-- **properties** (special properties like transform-origin and backface-visibility)
+- properties (special properties like transform-origin and backface-visibility)
 
-- **counts** (the times the animation should play, either infinite or a number)
+- counts (the times the animation should play, either infinite or a number)
 
 In UnoCSS you specify the values you want for each animation in each property.
 
@@ -35,7 +35,7 @@ animation: {
 }
 ```
 
-It is possible to have **arbitrary animations** as long as you have some keyframes.
+It is possible to have arbitrary animations as long as you have some keyframes.
 
 `class="animate-[spin_3s_ease-in-out_2] keyframes-spin"` would use the spin keyframes but change the duration to `3s`, the interpolation to `ease-in-out` and play `2` times.
 

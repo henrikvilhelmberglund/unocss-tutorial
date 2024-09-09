@@ -12,6 +12,6 @@ As you can see it doesn't work properly because UnoCSS doesn't know what color `
 
 `import { colors } from "./colors.js"`
 
-`safelist: [...colors.map((color)=> `bg-${color}-500 hover:bg-${color}-600`.split(" "))]`
+`safelist: [...colors.map((color) => `bg-${color}-500 hover:bg-${color}-600`.split(" "))]`
 
 By doing this we can generate the background rules and hover rules even though they are not plainly visible to UnoCSS.

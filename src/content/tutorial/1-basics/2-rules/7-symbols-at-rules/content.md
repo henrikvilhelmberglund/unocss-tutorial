@@ -6,7 +6,7 @@ focus: /uno.config.js
 
 # Symbols - at rules
 
-Symbols can also be used for implementing at rules such as **@supports**.
+Symbols can also be used for implementing at rules such as @supports.
 
 > `symbols.parent`: The parent wrapper of the generated CSS rule (eg. @supports, @media, etc.)
 
