@@ -12,8 +12,8 @@
 	onmousedown={(e) => {
 		e.preventDefault();
 	}}
-	class="grid grid-areas-[._up._]-[left_._right]-[._down_.] justify-start">
+	class="grid grid-areas-[._up_.]-[left_._right]-[._down_.] justify-start">
 	{#each directions as direction}
-		{@render arrowKey(`i-carbon-arrow-${direction} grid-area-${direction}`)}
+		{@render arrowKey(`i-carbon-arrow-${direction} grid-area-[${direction}] active:text-blue-500`)}
 	{/each}
 </div>
