@@ -17,3 +17,15 @@ After doing so the icon can be added like this:
 `i` is a preset for icons, `mdi` is the collection name and `alarm` is the name of the icon.
 
 For a list of icons that can be used, see https://icones.js.org/.
+
+It is possible to control the default CSS properties of icons using `extraProperties`:
+
+```ts
+presetIcons({
+  extraProperties: {
+    'display': 'inline-block',
+    'vertical-align': 'middle',
+    // ...
+  },
+})
+```
