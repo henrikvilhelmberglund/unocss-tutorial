@@ -40,7 +40,7 @@
 
   ✔ Theme animations @done(24-08-22 16:47)
 
-  ☐ Theme spacing
+  ✔ Theme spacing @done(24-09-09 15:20)
 
 5. Presets:
 
@@ -70,23 +70,25 @@
 
 9. presetIcons:
 
-  ☐ Introduction to presetIcons
+  ✔ Introduction to presetIcons @done(24-09-10 16:00)
 
-  ☐ Dynamic icons using safelist
+  ✔ Dynamic icons using safelist @done(24-09-10 16:00)
 
-  ☐ Dynamic icons without safelist
+  ✔ Dynamic icons without safelist @done(24-09-11 17:36)
 
-  ☐ Icons - mask
-
-  ☐ Icons - background
+  ✔ Icons - ?mask and ?bg @done(24-09-11 17:36)
   
 10. presetWebFonts:
 
-  ☐ Introduction to presetWebFonts
+  ✔ Introduction to presetWebFonts @done(24-09-11 17:36)
 
-11. Variant group:
+  ✔ Using presetWebFonts @done(24-09-11 17:36)
 
-  ☐ Introduction to variant group
+11. Transformer variant group:
+
+  ✔ Introduction to transformerVariantGroup @done(24-09-11 17:36)
+
+  ✔ Using transformerVariantGroup @done(24-09-11 17:36)
   
 12. Transformer directives:
 
