@@ -84,22 +84,24 @@
 
   ✔ Using presetWebFonts @done(24-09-11 17:36)
 
-11. Transformer variant group:
+11. transformerVariantGroup:
 
   ✔ Introduction to transformerVariantGroup @done(24-09-11 17:36)
 
   ✔ Using transformerVariantGroup @done(24-09-11 17:36)
   
-12. Transformer directives:
+12. transformerDirectives:
 
-  ☐ Introduction to transformer directives
+  ✔ Introduction to transformerDirectives @done(24-09-12 16:52)
 
-  ☐ @apply and --at-apply:
+  ✔ @apply and --at-apply: @done(24-09-12 16:52)
 
-  ☐ @screen
+  ✔ @screen @done(24-09-12 16:52)
 
-  ☐ theme()
+  ✔ theme() @done(24-09-12 16:52)
   
 13. Tips and tricks:
+
+  ☐ Introduction to tips and tricks
 
   ☐ ? to find utilities
