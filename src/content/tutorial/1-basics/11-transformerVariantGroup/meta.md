@@ -1,4 +1,4 @@
 ---
 type: chapter
-title: Variant group
+title: transformerVariantGroup
 ---

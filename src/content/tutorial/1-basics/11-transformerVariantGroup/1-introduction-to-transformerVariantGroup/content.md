@@ -4,9 +4,9 @@ title: Introduction to transformerVariantGroup
 focus: /uno.config.js
 ---
 
-# Transformer variant group
+# transformerVariantGroup
 
-Transformer variant group is a feature that allows for using parentheses to group related utilities.
+Variant group transformer is a feature that allows for using parentheses to group related utilities.
 
 For example, instead of 
 
@@ -21,3 +21,7 @@ You could write:
 ```
 
 and get the same result.
+
+:::warn
+`transformerVariantGroup` does not work in the runtime used in this tutorial since it needs to transform the code via a build step.
+:::

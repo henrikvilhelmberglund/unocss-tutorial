@@ -1,0 +1,1 @@
+<button class="bg-blue-400 px-[calc(theme(breakpoints.xl)/2)] py-xl">button</button>
