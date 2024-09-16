@@ -1,5 +1,4 @@
 // import './app.css'
-import './app2.css'
 import App from './App.svelte'
 import { mount } from "svelte"
 import initUnocssRuntime from '@unocss/runtime'
