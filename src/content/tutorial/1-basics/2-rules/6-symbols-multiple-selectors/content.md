@@ -28,6 +28,8 @@ function* ([, c], { symbols }) {
 
 `symbols.variants`: An array of variant handlers that are applied to the current CSS object
 
+`symbols.layer`: A string/function/regex match that sets the UnoCSS layer of the generated CSS rule
+
 `symbols.shortcutsNoMerge`: A boolean to disable the merging of the current rule in shortcuts
 :::
 
