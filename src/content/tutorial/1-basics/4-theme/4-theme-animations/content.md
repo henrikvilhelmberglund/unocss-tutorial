@@ -43,7 +43,7 @@ It is possible to have arbitrary animations as long as you have some keyframes.
 Always include `keyframes-(animationname)` if you write an arbitrary animation to make sure the @keyframes rule is created properly.
 :::
 
-Copy this animaion and paste it into animation:
+Copy this animaion and paste it into `animation:`
 
 ```ts
 			keyframes: {

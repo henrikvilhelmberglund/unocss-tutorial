@@ -6,6 +6,10 @@ focus: /uno.config.js
 
 # Dynamic icons using safelist
 
+:::warn
+This example works in the runtime because the runtime is designed to support dynamic classes (since it doesn't run in build time), but when not using the runtime integration these colors would not be visible without adding them to the safelist.
+:::
+
 When trying to use dynamic icons (for example using a loop) it is possible that UnoCSS can't properly generate the utilities.
 
 To fix this we can use safelist:

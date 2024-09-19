@@ -1,4 +1,4 @@
-import { definePreset } from "unocss";
+import { definePreset } from "@unocss/core";
 import myButton from "./my-button";
 
 export default definePreset((options) => {
