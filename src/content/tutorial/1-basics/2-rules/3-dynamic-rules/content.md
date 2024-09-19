@@ -16,7 +16,7 @@ The name should be this: `/^fancy-(.*)$/`
   <summary>New to regex?</summary>
 
 :::info
-`//` is how a regex is specified. `^` is the start of the string and `$` is the end of the string. `.*` means `match any character` and putting parantheses around like `(.*)` will create a capturing group that catches the content and allows for matching against the whole group.
+`//` is how a regex is specified. `^` is the start of the string and `$` is the end of the string. `.*` means `match any character` and putting parentheses around like `(.*)` will create a capturing group that catches the content and allows for matching against the whole group.
 :::
 
 </details>
