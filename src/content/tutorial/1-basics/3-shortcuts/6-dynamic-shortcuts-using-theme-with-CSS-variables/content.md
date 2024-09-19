@@ -10,7 +10,7 @@ It is also possible to use CSS variables in the theme. Here is an example that c
 
 Add the following to the config:
 
-````js
+```js
 theme: {
     colors: {
       random: {

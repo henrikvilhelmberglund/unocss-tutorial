@@ -38,7 +38,7 @@ colors: {
 Breakpoints can be defined if you want to change the defaults or add new devices.
 
 :::warn
-Breakpoints are not merged but instead replace the default values. This means that you will need to provide values for all breakpoints you want to use.
+Breakpoints are not merged but instead replace the default values. This means that you will need to provide values for all breakpoints you want to use or use the special extendTheme() function which we will talk about later.
 :::
 
 In the next lessons we'll look at theme and colors, breakpoints and animations.
