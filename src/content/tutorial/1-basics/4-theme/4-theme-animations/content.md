@@ -6,7 +6,7 @@ focus: /uno.config.js
 
 # Animations
 
-You can add custom animations to the theme. A good reference for animations are the premade UnoCSS animations that can be found here: [source: preset-wind theme.ts](https://github.com/unocss/unocss/blob/main/packages/preset-wind/src/theme.ts#L19)
+You can add custom animations to the theme. A good reference for animations are the premade UnoCSS animations that can be found here: [source: preset-wind theme.ts](https://github.com/unocss/unocss/blob/main/packages-presets/preset-wind4/src/theme/animate.ts)
 
 `animation:` can have 5 properties -
 
