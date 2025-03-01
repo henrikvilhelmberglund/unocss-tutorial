@@ -44,5 +44,5 @@ Breakpoints are not merged but instead replace the default values. This means th
 In the next lessons we'll look at theme and colors, breakpoints and animations.
 
 :::tip
-For a list of everything you can configure inside the theme, see this: https://github.com/unocss/unocss/blob/main/packages/preset-mini/src/_theme/types.ts
+For a list of everything you can configure inside the theme, see this: https://github.com/unocss/unocss/blob/main/packages-presets/preset-mini/src/_theme/types.ts
 :::

@@ -53,6 +53,6 @@ Note that it's also possible to add a `DEFAULT` property with a color value if y
 :::
 
 :::tip
-The default colors from the source code can be found here: https://github.com/unocss/unocss/blob/main/packages/preset-mini/src/_theme/colors.ts
+The default colors from the source code can be found here: https://github.com/unocss/unocss/blob/main/packages-presets/preset-mini/src/_theme/colors.ts
 :::
 

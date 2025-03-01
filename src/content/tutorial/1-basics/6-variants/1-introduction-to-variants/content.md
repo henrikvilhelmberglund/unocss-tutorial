@@ -18,6 +18,6 @@ export default defineConfig({
 });
 ```
 
-UnoCSS has many prebuilt variants like `hover:`, `dark:` and `md:`. The implementations of these can be found in the [source: variants](https://github.com/unocss/unocss/tree/main/packages/preset-mini/src/_variants).
+UnoCSS has many prebuilt variants like `hover:`, `dark:` and `md:`. The implementations of these can be found in the [source: variants](https://github.com/unocss/unocss/tree/main/packages-presets/preset-mini/src/_variants).
 
 In the next lesson we will create a new variant and use it.

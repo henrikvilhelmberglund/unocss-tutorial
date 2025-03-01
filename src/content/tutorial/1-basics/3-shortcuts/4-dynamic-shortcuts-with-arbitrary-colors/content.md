@@ -9,7 +9,7 @@ focus: /uno.config.js
 Our dynamic shortcut worked fine for purple because it's available as a color in UnoCSS. 
 
 :::tip
-See [UnoCSS source: colors.ts](https://github.com/unocss/unocss/blob/main/packages/preset-mini/src/_theme/colors.ts) for a list of all available colors.
+See [UnoCSS source: colors.ts](https://github.com/unocss/unocss/blob/main/packages-presets/preset-mini/src/_theme/colors.ts) for a list of all available colors.
 :::
 
 What about CSS colors like `hotpink` though? Since `hotpink` is not available as a default color we can't change the lightness value with the `-500` syntax. 
