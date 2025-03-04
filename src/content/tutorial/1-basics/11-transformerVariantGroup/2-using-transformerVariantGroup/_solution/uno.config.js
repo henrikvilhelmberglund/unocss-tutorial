@@ -1,12 +1,12 @@
 import { defineConfig } from "@unocss/runtime";
-import presetUno from "https://esm.sh/@unocss/preset-uno";
+import presetWind3 from "https://esm.sh/@unocss/preset-wind3";
 import presetWebFonts from "https://esm.sh/@unocss/preset-web-fonts";
 import transformerVariantGroup from "https://esm.sh/@unocss/transformer-variant-group";
 
 export default defineConfig({
 	transformers: [transformerVariantGroup()],
 	presets: [
-		presetUno(),
+		presetWind3(),
 		presetWebFonts({
 			provider: "google", // default provider
 			fonts: {

@@ -43,10 +43,10 @@ We now have this arrow function which starts with `([, c])` where `c` will match
 You should end up with something like this:
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-	presets: [presetUno()],
+	presets: [presetWind3()],
 	rules: [[/^fancy-(.*)$/, ([, c]) => ({ color: `${c}` })]],
 });
 ```

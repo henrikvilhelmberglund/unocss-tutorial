@@ -11,10 +11,10 @@ Theme allows you to add or replace default values for colors, breakpoints, anima
 The theme is created using the `theme` object inside `uno.config.js`.
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-	presets: [presetUno()],
+	presets: [presetWind3()],
 	theme: {
 		colors: {
 			"very-cool": "#0000ff", // class="text-very-cool"

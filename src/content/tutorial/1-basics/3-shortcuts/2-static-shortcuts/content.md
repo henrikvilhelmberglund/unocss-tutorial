@@ -13,10 +13,10 @@ Inside of `uno.config.js` in the shortcuts object, add a new shortcut with `"fan
 You should end up with something like this:
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-	presets: [presetUno()],
+	presets: [presetWind3()],
 	shortcuts: [
 		{
 			"fancy-button-purple":

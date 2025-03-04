@@ -27,7 +27,7 @@ Try adding the preset to the config by importing it with
 
 and adding it to the presets array like this:
 
-`presets: [presetUno(), myPreset()]`
+`presets: [presetWind3(), myPreset()]`
 
 ## Layers
 

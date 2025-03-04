@@ -1,7 +1,7 @@
 import { defineConfig } from "@unocss/runtime";
-import presetUno from "https://esm.sh/@unocss/preset-uno";
+import presetWind3 from "https://esm.sh/@unocss/preset-wind3";
 import presetIcons from "https://esm.sh/@unocss/preset-icons/browser";
 
 export default defineConfig({
-	presets: [presetUno(), presetIcons({ cdn: "https://esm.sh/" })],
+	presets: [presetWind3(), presetIcons({ cdn: "https://esm.sh/" })],
 });

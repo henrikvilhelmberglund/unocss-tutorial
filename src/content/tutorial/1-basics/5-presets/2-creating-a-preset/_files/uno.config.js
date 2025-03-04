@@ -1,6 +1,6 @@
 import { defineConfig } from "@unocss/runtime";
-import presetUno from "https://esm.sh/@unocss/preset-uno";
+import presetWind3 from "https://esm.sh/@unocss/preset-wind3";
 
 export default defineConfig({
-	presets: [presetUno()],
+	presets: [presetWind3()],
 });

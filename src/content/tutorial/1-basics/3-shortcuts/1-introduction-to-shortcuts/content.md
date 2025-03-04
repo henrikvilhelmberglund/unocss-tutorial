@@ -15,10 +15,10 @@ Note that when using a component based framework simply writing the classes in a
 Rules are created using the `shortcuts` object or array inside `uno.config.js`.
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-	presets: [presetUno()],
+	presets: [presetWind3()],
 	shortcuts: [
 		// object for non regex shortcuts
 		{

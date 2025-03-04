@@ -1,10 +1,10 @@
 import { defineConfig } from "@unocss/runtime";
-import presetUno from "https://esm.sh/@unocss/preset-uno";
+import presetWind3 from "https://esm.sh/@unocss/preset-wind3";
 import presetWebFonts from "https://esm.sh/@unocss/preset-web-fonts";
 
 export default defineConfig({
 	presets: [
-		presetUno(),
+		presetWind3(),
 		presetWebFonts({
 			provider: "google", // default provider
 			fonts: {

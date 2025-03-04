@@ -13,11 +13,11 @@ Inside of `uno.config.js` add a new rule with `"fancy-purple"` as the string, `c
 You should end up with something like this:
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
-  rules: [["fancy-purple", { color: "purple" }]],
+	presets: [presetWind3()],
+	rules: [["fancy-purple", { color: "purple" }]],
 });
 ```
 

@@ -6,17 +6,17 @@ focus: /counter.js
 
 # Presets
 
-Presets are collections of rules, shortcuts, variants, preflights and more. The default preset `presetUno` is a preset that aims to be compatible with other utility-first frameworks like Tailwind CSS.
+Presets are collections of rules, shortcuts, variants, preflights and more. The default preset `presetWind3` is a preset that aims to be compatible with other utility-first frameworks like Tailwind CSS.
 
-By creating a preset you can create a new framework or feature inside UnoCSS and if you want to share it you can release it as a package for others to use. 
+By creating a preset you can create a new framework or feature inside UnoCSS and if you want to share it you can release it as a package for others to use.
 
-Presets can be loaded using the `presets` array inside `uno.config.js`. 
+Presets can be loaded using the `presets` array inside `uno.config.js`.
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
+	presets: [presetWind3()],
 });
 ```
 

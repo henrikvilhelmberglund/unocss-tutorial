@@ -13,7 +13,7 @@ To solve this issue we can add the utilities that should be generated in `safeli
 Safelist can be set using the `safelist` array inside `uno.config.js`.
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
 	safelist: "p-1 p-2 p-3 p-4".split(" "),
@@ -24,7 +24,7 @@ export default defineConfig({
 It is also possible to use a function:
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
 	safelist: [...Array.from({ length: 4 }, (_, i) => `p-${i + 1}`)],

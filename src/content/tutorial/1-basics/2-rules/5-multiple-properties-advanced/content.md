@@ -11,10 +11,10 @@ Another way is to generate multiple CSS properties is to use JS generator functi
 Here is how it would look:
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-	presets: [presetUno()],
+	presets: [presetWind3()],
 	rules: [
 		[
 			/^fancy-(.*)$/,

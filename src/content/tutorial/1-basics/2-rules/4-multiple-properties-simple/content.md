@@ -11,11 +11,11 @@ There are a few ways to have a rule with multiple CSS properties. The most basic
 Add an underline like this:
 
 ```js
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig, presetWind3 } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno()],
-  rules: [[/^fancy-(.*)$/, ([, c]) => ({ color: `${c}`, "text-decoration": `underline ${c}` })]],
+	presets: [presetWind3()],
+	rules: [[/^fancy-(.*)$/, ([, c]) => ({ color: `${c}`, "text-decoration": `underline ${c}` })]],
 });
 ```
 
